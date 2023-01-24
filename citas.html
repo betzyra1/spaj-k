@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="assets/imgs/icono2.jpg">
+	    <link rel="icon" href="assets/imgs/icono.jpg">
+	    <link rel="stylesheet" type="text/css" href="assets/css/hojacss.css">
+	<title>citas</title>
+</head>
+<body>
+	<button><a href="index.html" target="blank"><img src="assets/imgs/principal.png" width="40" height="40"></a></button>
+
+	<form name="formularios">
+	<br>
+	
+	<fieldset>
+	<h1>Datos para cita...</h1>
+	<br>
+	<br>
+	<br>
+		<p>
+			<label>Frecuencia de visitas</label>
+			<input type="range" name="visitas" value="0">
+		</p>
+		<br>			
+		
+
+		<p>
+			<label>Fecha de registro: </label>
+			<input type="date" name="fechaReg">
+		</p>
+		<br>
+		<p>
+			<label>Día de la cita:</label>
+			<input type="date" name="fechaReg">
+		</p>
+		<br>
+		<p>
+			
+			</datalist>
+		</p>
+		<br>
+
+		<label for="">Tipo de servicio que desea:</label>
+		<input type="text" name="servicio">
+
+	</fieldset>
+	<fieldset>
+		
+
+		<!-- agregar datos del cliente-->
+		<h1><b>Datos del cliente:...</b></h1>
+		<br>
+		<br>
+		<br>
+
+        <p>
+        	<label>Nombre completo: </label>
+		    <input type="text" name="nombrecompleto" required>
+		    <span>Curp:</span>
+		    <input type="text" name="curp" maxlength="20" required>
+		</p>
+		<br>
+		<p>
+		   <span>Número de teléfono:</span>
+		   <input type="number" name="numerodetelefono" required>
+	    </p>
+	    <br>
+	   <!-- <p id="correo">
+		    <span>Correo electrónico:</span>
+		    <input type="tex-number" name="correoelectronico" requireds>
+        </p>-->
+         <div class="emailBox">
+    <label for="emailAddress">Correo electrónico</label><br />
+    <input
+      id="emailAddress"
+      type="email"
+      size="100"
+      maxlength="100"
+      required
+      placeholder="username@beststartupever.com"
+      pattern=".+@beststartupever\.com"
+      title="Proporcione solo una dirección de correo electrónico corporativa de Best Startup Ever"
+    />
+  </div>
+        <br>
+		
+		<br>
+
+	</fieldset>	
+
+
+	</p>
+	<br>
+	<br>
+	<br>
+	</fieldset>
+
+	
+
+	<button><BIG>Enviar</BIG></button>
+</body>
+</html>
